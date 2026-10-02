@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>R. Mukesh — Frames. Journeys. Reels.</title>
+<meta name="description" content="Cheyyar-based creative. Photography & frames, travel bookings, video editing and Instagram reels. One contact, everything sorted." />
+<meta name="author" content="R. Mukesh" />
+<meta name="theme-color" content="#0A0A0A" />
+
+<!-- Open Graph (WhatsApp / Instagram previews) -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="R. Mukesh — Frames. Journeys. Reels." />
+<meta property="og:description" content="Photography & frames, travel bookings, video editing and reels. Handled start to finish." />
+<meta property="og:image" content="mukesh.png" />
+<meta property="og:locale" content="en_IN" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="R. Mukesh — Frames. Journeys. Reels." />
+<meta name="twitter:description" content="Photography & frames, travel bookings, video editing and reels." />
+<meta name="twitter:image" content="mukesh.png" />
+
+<!-- Favicon (inline SVG — no extra file needed) -->
+<link rel="icon" type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230A0A0A'/%3E%3Ctext x='50%25' y='54%25' font-family='Arial,sans-serif' font-size='18' font-weight='700' fill='%23F5F5F5' text-anchor='middle' dominant-baseline='middle'%3ER%3C/text%3E%3Ccircle cx='24' cy='20' r='2.2' fill='%23E11D2E'/%3E%3C/svg%3E" />
+
+<!-- Preload hero photo for faster LCP -->
+<link rel="preload" as="image" href="mukesh.png" />
+
+<link rel="preconnect" href="https://api.fontshare.com" />
+<link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&f[]=satoshi@400,500,700&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- page intro -->
+<div class="intro" id="intro">
+  <div class="intro__mark">R<span>.</span>MUKESH</div>
+  <div class="intro__bar" id="introBar"></div>
+</div>
+
+<!-- custom cursor (desktop only, hidden on mobile via CSS) -->
+<div class="cursor" id="cursor" aria-hidden="true"></div>
+<div class="cursor__ring" id="cursorRing" aria-hidden="true"></div>
+
+<!-- grain overlay -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ── NAV ───────────────────────────────── -->
+<header class="nav" id="nav">
+  <a href="#home" class="nav__mark">R<span>.</span>MUKESH</a>
+
+  <nav class="nav__links" id="navLinks">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#work">Work</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <a href="https://wa.me/916484560320" class="nav__cta" target="_blank" rel="noopener">Let's talk</a>
+
+  <button class="nav__burger" id="burger" aria-label="Menu" aria-expanded="false">
+    <span></span><span></span>
+  </button>
+</header>
+
+<!-- mobile menu overlay -->
+<div class="menu" id="menu" aria-hidden="true">
+  <div class="menu__inner">
+    <nav class="menu__links">
+      <a href="#home"      data-menu-link><span>01</span>Home</a>
+      <a href="#about"     data-menu-link><span>02</span>About</a>
+      <a href="#services"  data-menu-link><span>03</span>Services</a>
+      <a href="#work"      data-menu-link><span>04</span>Work</a>
+      <a href="#testimonials" data-menu-link><span>05</span>Kind words</a>
+      <a href="#contact"   data-menu-link><span>06</span>Contact</a>
+    </nav>
+
+    <div class="menu__foot">
+      <a href="https://wa.me/916484560320" target="_blank" rel="noopener" class="menu__cta">WhatsApp me →</a>
+      <div class="menu__socials">
+        <a href="https://www.instagram.com/mukesh_vibes_fx" target="_blank" rel="noopener">Instagram</a>
+        <a href="mailto:renumukeshcheyyar@gmail.com">Email</a>
+      </div>
+      <p class="menu__loc">Cheyyar · Tamil Nadu</p>
+    </div>
+  </div>
+</div>
+
+<!-- ── HERO ──────────────────────────────── -->
+<section class="hero" id="home">
+
+  <div class="hero__glow" aria-hidden="true"></div>
+
+  <div class="hero__inner">
+
+    <div class="hero__text">
+      <p class="hero__eyebrow" data-hero="eyebrow">
+        <span class="dot"></span> Cheyyar, Tamil Nadu · Available for work
+      </p>
+
+      <h1 class="hero__name" data-hero="name">
+        <span class="line"><span class="line__in">R<i>.</i> MUKESH</span></span>
+      </h1>
+
+      <h2 class="hero__tag" data-hero="tag">
+        <span class="line"><span class="line__in">Frames. Journeys. Reels.</span></span>
+      </h2>
+
+      <p class="hero__sub" data-hero="sub">
+        One contact, everything sorted. Photography &amp; frames, travel bookings,
+        video editing and reels — handled start to finish.
+      </p>
+
+      <div class="hero__actions" data-hero="actions">
+        <a href="https://wa.me/916484560320" class="btn btn--red" target="_blank" rel="noopener">
+          WhatsApp me
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a href="https://www.instagram.com/mukesh_vibes_fx" class="btn btn--ghost" target="_blank" rel="noopener">
+          See my reels
+        </a>
+      </div>
+    </div>
+
+    <div class="hero__photo" data-hero="photo">
+      <div class="hero__photoFrame">
+        <img src="mukesh.png" alt="R. Mukesh" />
+      </div>
+    </div>
+
+  </div>
+
+  <!-- marquee -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Photography &amp; Frames</span><b>◆</b>
+      <span>Travel Bookings</span><b>◆</b>
+      <span>Video Editing</span><b>◆</b>
+      <span>Instagram Reels</span><b>◆</b>
+      <span>Photography &amp; Frames</span><b>◆</b>
+      <span>Travel Bookings</span><b>◆</b>
+      <span>Video Editing</span><b>◆</b>
+      <span>Instagram Reels</span><b>◆</b>
+    </div>
+  </div>
+
+</section>
+
+<!-- ── ABOUT ─────────────────────────────── -->
+<section class="sec about" id="about">
+  <div class="wrap about__grid">
+
+    <div class="about__left">
+      <p class="sec__label" data-reveal>01 — About</p>
+      <h2 class="sec__title" data-reveal>Final year BCA.<br>Full-time hustler.</h2>
+      <p class="sec__body" data-reveal>
+        I'm Mukesh — a final year BCA student from Cheyyar building things on the side
+        that actually help people around me. Whether it's getting a photoshoot done,
+        booking a van for a family trip, or cutting a reel that hits right — I handle
+        the coordination so you don't have to chase ten different people.
+      </p>
+      <p class="sec__body" data-reveal>
+        My advantage isn't a fancy office. It's a <strong>local network built over years</strong> —
+        photographers, framers, travel operators, and a college full of people who trust
+        me to get things done.
+      </p>
+    </div>
+
+    <div class="about__right">
+      <div class="stat" data-reveal>
+        <span class="stat__n">04</span>
+        <span class="stat__l">Services offered</span>
+      </div>
+      <div class="stat" data-reveal>
+        <span class="stat__n">20+</span>
+        <span class="stat__l">Local contacts</span>
+      </div>
+      <div class="stat" data-reveal>
+        <span class="stat__n">100%</span>
+        <span class="stat__l">Handled for you</span>
+      </div>
+      <div class="stat" data-reveal>
+        <span class="stat__n">24h</span>
+        <span class="stat__l">Response time</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── SERVICES ──────────────────────────── -->
+<section class="sec services" id="services">
+  <div class="wrap">
+    <p class="sec__label" data-reveal>02 — Services</p>
+    <h2 class="sec__title" data-reveal>What I do</h2>
+    <p class="sec__body" data-reveal>
+      Four ways I can help. Pick what you need — or message me and I'll tell you what fits.
+    </p>
+    <div class="grid" id="serviceGrid"></div>
+  </div>
+</section>
+<!-- ── WORK ──────────────────────────────── -->
+<section class="sec work" id="work">
+  <div class="wrap">
+    <div class="work__head">
+      <div>
+        <p class="sec__label" data-reveal>03 — Work</p>
+        <h2 class="sec__title" data-reveal>Recent edits</h2>
+      </div>
+      <a href="https://www.instagram.com/mukesh_vibes_fx" target="_blank" rel="noopener"
+         class="btn btn--ghost work__allBtn" data-reveal>
+        View all on Instagram
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M7 17L17 7M9 7h8v8"/>
+        </svg>
+      </a>
+    </div>
+
+    <div class="reels" id="reelsGrid"></div>
+  </div>
+</section>
+
+<!-- ── CONTACT ───────────────────────────── -->
+<!-- ── TESTIMONIALS ─────────────────────── -->
+<section class="sec testimonials" id="testimonials">
+  <div class="wrap">
+    <p class="sec__label" data-reveal>04 — Kind words</p>
+    <h2 class="sec__title" data-reveal>What people say</h2>
+    <div class="tgrid" id="tGrid"></div>
+  </div>
+</section>
+
+<!-- ── CONTACT ───────────────────────────── -->
+<section class="sec contact" id="contact">
+  <div class="wrap contact__wrap">
+
+    <div class="contact__left">
+      <p class="sec__label" data-reveal>05 — Contact</p>
+      <h2 class="sec__title sec__title--big" data-reveal>Got something<br>in mind?</h2>
+      <p class="sec__body" data-reveal>
+        Message me on WhatsApp — I usually reply within a few hours.
+        Tell me what you need and I'll sort it out.
+      </p>
+    </div>
+
+    <div class="contact__right">
+      <a href="https://wa.me/916484560320?text=Hi%20Mukesh%2C%20I%27d%20like%20to%20know%20more"
+         target="_blank" rel="noopener" class="cbtn cbtn--primary" data-reveal>
+        <div class="cbtn__icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A10 10 0 0 0 3.7 16.6L2 22l5.5-1.7a10 10 0 0 0 13-16.8zM12 20.4a8.4 8.4 0 0 1-4.3-1.2l-.3-.2-3.2 1 1-3.2-.2-.3A8.4 8.4 0 1 1 12 20.4zm4.6-6.3c-.3-.1-1.5-.7-1.8-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1-1.4-.7-2.3-1.2-3.2-2.8-.2-.4.2-.4.6-1.2.1-.1 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.2 5 4.4 1.8.7 2.5.8 3.4.6.6-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.3-.2-.6-.3z"/></svg>
+        </div>
+        <div class="cbtn__body">
+          <span class="cbtn__label">WhatsApp</span>
+          <span class="cbtn__value">64845 60320</span>
+        </div>
+        <svg class="cbtn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M9 7h8v8"/></svg>
+      </a>
+
+      <a href="mailto:renumukeshcheyyar@gmail.com" class="cbtn" data-reveal>
+        <div class="cbtn__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        </div>
+        <div class="cbtn__body">
+          <span class="cbtn__label">Email</span>
+          <span class="cbtn__value">renumukeshcheyyar@gmail.com</span>
+        </div>
+        <svg class="cbtn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M9 7h8v8"/></svg>
+      </a>
+
+      <a href="https://www.instagram.com/mukesh_vibes_fx" target="_blank" rel="noopener" class="cbtn" data-reveal>
+        <div class="cbtn__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor"/></svg>
+        </div>
+        <div class="cbtn__body">
+          <span class="cbtn__label">Instagram</span>
+          <span class="cbtn__value">@mukesh_vibes_fx</span>
+        </div>
+        <svg class="cbtn__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M9 7h8v8"/></svg>
+      </a>
+
+      <div class="cbtn cbtn--static" data-reveal>
+        <div class="cbtn__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M12 22s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        </div>
+        <div class="cbtn__body">
+          <span class="cbtn__label">Based in</span>
+          <span class="cbtn__value">Cheyyar, Tamil Nadu</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__top">
+      <div class="foot__brand">
+        <span class="foot__mark">R<span>.</span>MUKESH</span>
+        <p class="foot__tag">Frames. Journeys. Reels.<br>One contact, everything sorted.</p>
+      </div>
+
+      <div class="foot__links">
+        <div>
+          <span class="foot__h">Navigate</span>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div>
+          <span class="foot__h">Reach me</span>
+          <a href="https://wa.me/916484560320" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="mailto:renumukeshcheyyar@gmail.com">Email</a>
+          <a href="https://www.instagram.com/mukesh_vibes_fx" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="foot__bar">
+      <span>© 2026 R. Mukesh</span>
+      <span>Built in Cheyyar · Tamil Nadu</span>
+    </div>
+  </div>
+</footer>
+
+<!-- libs -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
