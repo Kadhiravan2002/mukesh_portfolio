@@ -157,49 +157,49 @@ const REELS = [
     title: 'Cinema song edit — melody cut',
     tag: 'Cinema Edit',
     url: 'https://www.instagram.com/mukesh_vibes_fx',
-    thumb: 'https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=600&q=80'
+    thumb: 'https://images.unsplash.com/photo-1663575479469-a40b4f898728?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   },
   {
     title: 'Lyric reel — trending audio',
     tag: 'Lyric Reel',
     url: 'https://www.instagram.com/mukesh_vibes_fx',
-    thumb: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=600&q=80'
+    thumb: 'https://images.unsplash.com/photo-1532375810709-75b1da00537c?w=600&q=80'
   },
   {
     title: 'Slow motion transition',
     tag: 'Transition',
     url: 'https://www.instagram.com/mukesh_vibes_fx',
-    thumb: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&q=80'
+    thumb: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=600&q=80'
   },
   {
     title: 'Mass dialogue + bgm sync',
     tag: 'Cinema Edit',
     url: 'https://www.instagram.com/mukesh_vibes_fx',
-    thumb: 'https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=600&q=80'
+    thumb: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq1Fd9zq9KFosxPZ6O1yq-xtCszAptN2J8iDdEieIZnhfGs0Qw7wvHPiU&s=10'
   },
   {
-    title: 'Vibe edit — night aesthetic',
-    tag: 'Aesthetic',
-    url: 'https://www.instagram.com/mukesh_vibes_fx',
-    thumb: 'https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=600&q=80'
-  },
+  title: 'Vibe edit — night aesthetic',
+  tag: 'Aesthetic',
+  url: 'https://www.instagram.com/mukesh_vibes_fx',
+  thumb: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR6EDwEiAGs0nK_WrJHCh85Edf5oJ8RVIjs0k9zkbylw&s=10'
+},
   {
     title: 'Beat drop transition',
     tag: 'Transition',
     url: 'https://www.instagram.com/mukesh_vibes_fx',
-    thumb: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=600&q=80'
+    thumb: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0ktY7BDR7UsTWMbrb2Y9VqXPMeV0omi-DRc1iL8xzuA&s=10'
   },
   {
     title: 'Trending audio cut — reel',
     tag: 'Trending',
     url: 'https://www.instagram.com/mukesh_vibes_fx',
-    thumb: 'https://images.unsplash.com/photo-1524650359799-842906ca1c06?w=600&q=80'
+    thumb: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJhcJR05RgSJyFeCx2IHKc7iqoPCXhilLM5xbrIUtnYQ&s=10'
   },
   {
     title: 'Cinema climax edit',
     tag: 'Cinema Edit',
     url: 'https://www.instagram.com/mukesh_vibes_fx',
-    thumb: 'https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?w=600&q=80'
+    thumb: 'https://i.pinimg.com/236x/50/26/86/502686f55bbfa58ba804ed82033bfc9f.jpg'
   }
 ];
 
